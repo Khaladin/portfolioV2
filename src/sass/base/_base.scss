@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; // Defines what 1rem is in this case 10px
+}
+
+body {
+  box-sizing: border-box;
+  background-color: linear-gradient(190deg,
+    rgba($background-grey, 1) 0%,
+    rgba($background-white, 1) 70%);
+  background-attachment: fixed;
+}

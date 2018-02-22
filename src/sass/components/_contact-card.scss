@@ -1,0 +1,33 @@
+.contact__card {
+  margin: 0 10rem;
+  padding: 3rem 0;
+  background-color: rgba($color-grey-blue, .3);
+  border-radius: 6px;
+  box-shadow: 0 1.5rem 2rem rgba($color-black, .25);
+  position: relative;
+
+  &-about {
+    margin-top: 8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: inline-block;
+  }
+
+  &-picture {
+    height: 25rem;
+    width: 25rem;
+    background-image: url(./pics/Cory_smile.jpg);
+    background-size: cover;
+    border-radius: 4px;
+    display: inline-block;
+  }
+
+  &-about-mission {
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 2rem;
+    display: inline-block;
+    clear: left;
+  }
+}

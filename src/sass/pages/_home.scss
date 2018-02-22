@@ -1,0 +1,36 @@
+.section-header {
+  height: 55vh;
+  width: 95vw;
+  background-image: url(./pics/sunOnSand.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  display: inline-block;
+  box-sizing: border-box;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+}
+
+.section-contact {
+  margin-top: -27rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  padding: 5rem 0;
+  background-image:linear-gradient(to bottom right,
+  rgba($color-grey-light-1, .8),
+  rgba($color-grey-light-2, .8)
+  ), url(./pics/sunOnSeagulls.jpg);
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 6px;
+  position: relative;
+  box-shadow: -1.5rem 1.5rem  3rem rgba($color-black, .25);
+}
+
+.section-links {
+  margin: 8rem 0;
+  padding: 5rem 0;
+  background-color: $color-grey-blue;
+  transform: skewY(2deg);
+
+}

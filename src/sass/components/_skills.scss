@@ -1,0 +1,44 @@
+.skills {
+  position: relative;
+  margin: 6rem 2rem;
+  height: 30rem;
+  width: 45rem;
+  padding: 2rem;
+  background-color: $color-grey-light-1;
+  box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
+
+  &__buttons {
+    float: right;
+    margin: 0 auto;
+  }
+}
+
+.skills__buttons {
+  float: right;
+  margin-right: 10rem;
+  margin-top: 10rem;
+}
+
+.skills__javaScript {
+  font-size: 2rem;
+  color: $color-text;
+  transform: skewY(0deg);
+}
+
+.skills__html-css {
+  font-size: 2rem;
+  color: $color-text;
+  transform: skewY(0deg);
+}
+
+.skills__sass {
+  font-size: 2rem;
+  color: $color-text;
+  transform: skewY(0deg);
+}
+
+.skills__react {
+  font-size: 2rem;
+  color: $color-text;
+  transform: skewY(0deg);
+}

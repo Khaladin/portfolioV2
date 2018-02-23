@@ -3,8 +3,9 @@ import React, {Component} from 'react';
 import SandyBeach from './pics/blueSand.jpg';
 
 import Header from './header';
-import Contact from './contact-card.js'
-import ContactLinks from './contact-links.js'
+import Contact from './contact-card';
+import ContactLinks from './contact-links';
+import Skills from './skills';
 
  class App extends Component {
    render() {
@@ -13,6 +14,7 @@ import ContactLinks from './contact-links.js'
          <Header />
          <Contact />
          <ContactLinks />
+         <Skills />
         </div>
      );
    }

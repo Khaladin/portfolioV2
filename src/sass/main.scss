@@ -1,5 +1,6 @@
 @import "abstracts/variables";
 @import "abstracts/mixins";
+@import "abstracts/utilities";
 
 @import "base/base";
 @import "base/typography";
@@ -7,6 +8,8 @@
 @import "components/about-box";
 @import "components/contact-card";
 @import "components/link-box";
+@import "components/button";
+@import "components/skills";
 
 @import "pages/home";
 

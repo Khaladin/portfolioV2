@@ -7,6 +7,7 @@ class ContactLinks extends Component {
       <div class="section-links">
         <div class="row">
           <div class="col-1-of-5">
+            <a href="https://www.linkedin.com/in/cory-hoban-182735125/">
             <div class="link-box">
               <div class="link-box__icon">
                 <FA name="linkedin" />
@@ -15,9 +16,11 @@ class ContactLinks extends Component {
                 Find me on LinkedIn
               </p>
             </div>
+            </a>
           </div>
 
           <div class="col-1-of-5">
+            <a href="https://github.com/Khaladin">
             <div class="link-box">
               <div class="link-box__icon">
                 <FA name="github" />
@@ -26,9 +29,11 @@ class ContactLinks extends Component {
                 Find me on Github
               </p>
             </div>
+            </a>
           </div>
 
           <div class="col-1-of-5">
+          <a href="./CoryHobanResume2018.doc">
             <div class="link-box">
               <div class="link-box__icon">
                 <FA name="file" />
@@ -37,9 +42,11 @@ class ContactLinks extends Component {
                 Checkout my Resume
               </p>
             </div>
+            </a>
           </div>
 
           <div class="col-1-of-5">
+            <a href="mailto:hobancor@gmail.com">
             <div class="link-box">
               <div class="link-box__icon">
                 <FA name="paper-plane" />
@@ -48,9 +55,11 @@ class ContactLinks extends Component {
                 Send me an email
               </p>
             </div>
+            </a>
           </div>
 
           <div class="col-1-of-5">
+            <a href="http://coryhoban.blogspot.com/">
             <div class="link-box">
               <div class="link-box__icon">
                 <FA name="pencil" />
@@ -59,6 +68,7 @@ class ContactLinks extends Component {
                 Checkout my Blog
               </p>
             </div>
+            </a>
           </div>
 
         </div>

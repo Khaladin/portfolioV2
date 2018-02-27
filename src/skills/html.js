@@ -5,7 +5,9 @@ class Html extends Component {
     return(
       <div class="skills">
         <p class="skills__html-css">
-          HTML INFO IN HERE!
+          Strong understanding of HTML5 and its principles.
+          ability to create custom websites using CSS to style
+          and libraries like Bootstrap when needed.
         </p>
       </div>
     );

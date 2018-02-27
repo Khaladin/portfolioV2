@@ -22,9 +22,9 @@ class Contact extends Component {
               A highley driven software developer. Diligently spends free time creating personal projects
               and exploring new programming languages & frameworks. Seeking entery_level software development position.
             </div>
-            <div dir="rtl">
+            <div>
               <ul class="fa-ul contact__card-list">
-                <li><FA name="home" />4011 N Riverside Dr., Tampa FL 33603 </li>
+                <li><FA name="home" />4011 N Riverside Dr. Tampa Fl 33603</li>
                 <li><FA name="phone" />810-923-0743 </li>
               </ul>
             </div>

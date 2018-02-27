@@ -22,23 +22,23 @@
 .skills__javaScript {
   font-size: 2rem;
   color: $color-text;
-  transform: skewY(0deg);
+  transform: translate(0, 0);
 }
 
 .skills__html-css {
   font-size: 2rem;
   color: $color-text;
-  transform: skewY(0deg);
+  transform: translate(0, 40%);
 }
 
 .skills__sass {
   font-size: 2rem;
   color: $color-text;
-  transform: skewY(0deg);
+  transform: translate(0, 10%);
 }
 
 .skills__react {
   font-size: 2rem;
   color: $color-text;
-  transform: skewY(0deg);
+  transform: translate(0, 10%);
 }

@@ -68,13 +68,36 @@ class Projects extends Component {
 
               <div class="card__side card__side--back">
                 <div class="card__cta">
-                  <p class="card__cta--text">The information about the project goes here</p>
+                  <p class="card__cta--text">This project was the first project I ever made.
+                    I like it because it started me down the web development path. It uses JavaScript
+                    to display a random quote. It also uses scripts from twitter to import a tweet button
+                    allowing the user to tweet a quote out if they want.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="col-1-of-2-">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="projects__headings">
+                  Drawing
+                </div>
+                <img src={require('./pics/seaHorse.jpg')} alt="Sea Horse Drawing" class="projects__pictures" />
+              </div>
+
+              <div class="card__side card__side--back">
+                <div class="card__cta">
+                  <p class="card__cta--text">I like this picture I colored because it has helpped
+                  me with my focus. I also like it because I had started feeling recently that I
+                  consummed too much in my life; that I needed to start creating more. One of the
+                  reasons I love programming is that it allows me to create on a daily basis. I
+                  love building and creating, it seems to give me purpose and direction in life.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
 
         </div>

@@ -5,9 +5,10 @@ class ReactSkills extends Component {
     return(
       <div class="skills">
         <p class="skills__react">
-          This website was built with React & Redux to manage the state
-          What I love about React is how is it makes it to compartmentalize all the
-          different components for a project
+          Strong understanding of React and Component based design. Ability to use
+          standard libraries for an array of solutions. knowledgable in AJAX requests
+          using libraries. Understanding of state management with Redux, using
+          action creators and reducers.
         </p>
       </div>
     );

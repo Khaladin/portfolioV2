@@ -41,7 +41,7 @@ body {
   color: #666; }
 
 .contact__card-list {
-  text-align: right;
+  text-align: left;
   padding-top: 1rem;
   font-size: 2.3rem;
   color: #666; }
@@ -139,22 +139,22 @@ body {
 .skills__javaScript {
   font-size: 2rem;
   color: #40291c;
-  transform: skewY(0deg); }
+  transform: translate(0, 0); }
 
 .skills__html-css {
   font-size: 2rem;
   color: #40291c;
-  transform: skewY(0deg); }
+  transform: translate(0, 40%); }
 
 .skills__sass {
   font-size: 2rem;
   color: #40291c;
-  transform: skewY(0deg); }
+  transform: translate(0, 10%); }
 
 .skills__react {
   font-size: 2rem;
   color: #40291c;
-  transform: skewY(0deg); }
+  transform: translate(0, 10%); }
 
 .projects__heading {
   text-align: center;
@@ -215,7 +215,7 @@ body {
     text-align: center; }
     .card__cta--text {
       color: white;
-      font-size: 1.7rem; }
+      font-size: 2.1rem; }
 
 .section-header {
   height: 55vh;

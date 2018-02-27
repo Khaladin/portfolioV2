@@ -30,7 +30,7 @@
 .section-links {
   margin: 8rem 0;
   padding: 5rem 0;
-  background-color: $color-grey-blue;
+  background-color: #ece093;
   transform: skewY(2deg);
 
 }
@@ -40,4 +40,8 @@
   background-color: $color-grey-blue;
   transform: skewY(2deg);
   height: 46rem;
+}
+
+.section-projects {
+  margin-top: -4rem;
 }

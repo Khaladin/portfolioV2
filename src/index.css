@@ -102,7 +102,7 @@ body {
   text-decoration: none;
   font-size: 2rem;
   color: #a6b5c5;
-  background-color: #eee;
+  background-color: white;
   display: block;
   border-radius: 3px;
   position: relative;
@@ -156,6 +156,67 @@ body {
   color: #40291c;
   transform: skewY(0deg); }
 
+.projects__heading {
+  text-align: center;
+  font-size: 8rem;
+  padding: 8rem;
+  color: #a6b5c5;
+  text-shadow: 2px 2px 3px #777; }
+
+.projects__pictures {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  height: 30rem;
+  border-radius: 3px; }
+
+.projects__headings {
+  text-align: center;
+  font-size: 3rem;
+  color: #a6b5c5;
+  text-shadow: 1px 1px 2px #777;
+  background-color: white;
+  margin: 4rem 14rem;
+  border-radius: 6px; }
+
+.card {
+  position: relative;
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  height: 60rem; }
+  .card__side {
+    height: 55rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    transition: all .8s ease; }
+    .card__side--front {
+      background-color: #ece093; }
+    .card__side--back {
+      background-color: #a6b5c5;
+      transform: rotateY(180deg); }
+  .card:hover .card__side--front {
+    transform: rotateY(-180deg); }
+  .card:hover .card__side--back {
+    transform: rotateY(0); }
+  .card__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+    .card__cta--text {
+      color: white;
+      font-size: 1.7rem; }
+
 .section-header {
   height: 55vh;
   width: 95vw;
@@ -183,7 +244,7 @@ body {
 .section-links {
   margin: 8rem 0;
   padding: 5rem 0;
-  background-color: #a6b5c5;
+  background-color: #ece093;
   transform: skewY(2deg); }
 
 .section-skills {
@@ -191,6 +252,9 @@ body {
   background-color: #a6b5c5;
   transform: skewY(2deg);
   height: 46rem; }
+
+.section-projects {
+  margin-top: -4rem; }
 
 .row {
   max-width: 114rem;
@@ -208,5 +272,7 @@ body {
   .row .col-1-of-2 {
     width: calc(( 100% - 6rem) / 2);
     transform: skewY(-2deg); }
+  .row .col-1-of-2- {
+    width: calc(( 100% - 6rem) / 2); }
   .row .col-1-of-5 {
     width: calc(( 100% - 4 * 6rem) / 5); }

@@ -6,6 +6,7 @@ import Header from './header';
 import Contact from './contact-card';
 import ContactLinks from './contact-links';
 import Skills from './skills';
+import Projects from './projects';
 
  class App extends Component {
    render() {
@@ -15,6 +16,7 @@ import Skills from './skills';
          <Contact />
          <ContactLinks />
          <Skills />
+         <Projects />
         </div>
      );
    }
